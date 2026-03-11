@@ -1,0 +1,356 @@
+*{
+margin: 0;
+padding: 0%;
+
+
+
+}
+
+body{
+
+  
+  background-color: rgb(0, 0, 0);
+  
+}
+
+
+table{
+    font-size: 15px;
+    margin: auto;
+    
+    }
+    
+    h2{
+      font-family: cursive;
+      font-size: 27px;
+      
+    
+    }
+    td{
+        
+      
+    
+    
+    width:5%;
+    border-radius: 6px;
+    height: 10vh;
+      transition: transform 0.2s ease; 
+    
+    }
+    
+    td:hover {
+      transform: scale(1.2);
+    
+    }
+    div{
+    
+    text-align: left;
+    
+   
+  
+    
+    
+    }
+    
+    .bordanaometais {
+    text-align: center;
+    border: solid;
+    background-color: rgb(180, 214, 128);
+    border-color: rgb(102, 126, 67);
+    box-shadow: 
+    0 0 30px rgb(102, 126, 67); 
+
+    
+    }
+    .bordagasesnobres{
+    text-align: center;
+    border: solid;
+    background-color: rgb(175, 175, 255);
+    border-color:rgb(95, 95, 156);
+
+    box-shadow: 
+    0 0 30px rgb(95, 95, 156);
+
+    
+    }
+
+    .bordametaisalcalinos {
+    text-align: center;
+    border: solid;
+    background-color: rgb(255, 209, 124);
+    border-color:rgb(170, 135, 70);
+
+    box-shadow: 
+    0 0 30px rgb(170, 135, 70);
+
+    }
+    .bordametaisalcalinosterrosos {
+    text-align: center;
+    border: solid;
+    background-color: rgb(255, 255, 137);
+    border-color:rgb(155, 155, 67);
+
+    box-shadow: 
+    0 0 30px rgb(155, 155, 67); 
+
+    }
+    .bordasemimetais {
+    text-align: center;
+    border: solid;
+    background-color: rgb(114, 206, 201);
+    border-color: rgb(74, 134, 131);
+
+    box-shadow: 
+    0 0 30px rgb(74, 134, 131);
+
+    }
+    .bordahalogenios {
+    text-align: center;
+    border: solid;
+    background-color: rgb(189, 222, 233);
+    border-color: rgb(93, 130, 143);
+
+    box-shadow: 
+    0 0 30px rgb(93, 130, 143);
+    }
+    .bordaoutrosmetais {
+    text-align: center;
+    border: solid;
+    background-color: rgb(156, 187, 255);
+    border-color:rgb(77, 93, 129);
+
+    box-shadow: 
+    0 0 30px rgb(77, 93, 129);
+    }
+    .bordametaisdetransicao {
+    text-align: center;
+    border: solid;
+    background-color: rgb(250, 179, 179);
+    border-color: rgb(146, 88, 88);
+
+    box-shadow: 
+    0 0 30px rgb(146, 88, 88);
+    }
+    .bordalantanideos {
+    text-align: center;
+    border: solid;
+    background-color: rgb(153, 219, 241);
+    border-color:rgb(96, 151, 170);
+
+    box-shadow: 
+    0 0 30px rgb(96, 151, 170);
+    }
+    .bordaactinidios {
+    text-align: center;
+    border: solid;
+    background-color: rgb(255, 204, 240);
+    border-color:rgb(179, 115, 161);
+
+    box-shadow: 
+    0 0 30px rgb(179, 115, 161);
+    }
+    
+    .bordanaometais1 {
+      text-align: center;
+      font-family: monospace;
+      
+      height: 5vh;
+      color: white;
+      
+      
+      }
+      .bordagasesnobres1{
+      text-align: center;
+      font-family: monospace;
+      
+      height: 5vh;
+      color: white;
+      
+      }
+      .bordametaisalcalinos1 {
+      text-align: center;
+      
+      font-family: monospace;
+      height: 5vh;
+      color: white;
+      
+      }
+      .bordametaisalcalinosterrosos1 {
+      text-align: center;
+      font-family: monospace;
+      
+      height: 5vh;
+      color: white;
+      }
+      .bordasemimetais1 {
+      text-align: center;
+      
+      font-family: monospace;
+      height: 5vh;
+      color: white;
+      
+      }
+      .bordahalogenios1 {
+      text-align: center;
+      
+      font-family: monospace;
+      height: 5vh;
+      color: white;
+      
+      }
+      .bordaoutrosmetais1 {
+      text-align: center;
+      font-family: monospace;
+     
+      height: 5vh;
+      color: white;
+      
+      }
+      .bordametaisdetransicao1 {
+      text-align: center;
+      
+      font-family: monospace;
+      height: 5vh;
+      color: white;
+      
+      }
+      .bordalantanideos1 {
+      text-align: center;
+      
+      font-family: monospace;
+      height: 5vh;
+      color: white;
+      
+      }
+      .bordaactinidios1 {
+      text-align: center;
+      
+      font-family: monospace;
+      height: 5vh;
+      color: white;
+      
+      
+      }
+
+      .bordanaometais2 {
+        text-align: center;
+        border: solid;
+        background-color: rgb(180, 214, 128);
+        height: 5vh;
+        width: 2%;
+        box-shadow: 
+    0 0 30px rgb(102, 126, 67); 
+
+        
+        }
+        .bordagasesnobres2{
+        text-align: center;
+        border: solid;
+        background-color: rgb(175, 175, 255);
+        height: 5vh;
+        width: 2%;
+        box-shadow: 
+    0 0 30px rgb(125, 125, 199);
+
+        
+        }
+        .bordametaisalcalinos2 {
+        text-align: center;
+        border: solid;
+        background-color: rgb(255, 209, 124);
+        height: 5vh;
+        width: 2%;
+        box-shadow: 
+    0 0 30px rgb(196, 159, 91);
+
+        
+        }
+        .bordametaisalcalinosterrosos2 {
+        text-align: center;
+        border: solid;
+        background-color: rgb(255, 255, 137);
+        height: 5vh;
+
+        width: 2%;
+        box-shadow: 
+    0 0 30px rgb(187, 187, 108);
+
+        
+        }
+        .bordasemimetais2 {
+        text-align: center;
+        border: solid;
+        background-color: rgb(114, 206, 201);
+        height: 5vh;
+        width: 2%;
+        box-shadow: 
+    0 0 30px rgb(80, 145, 141);
+
+        
+        }
+        .bordahalogenios2 {
+        text-align: center;
+        border: solid;
+        background-color: rgb(189, 222, 233);
+        height: 5vh;
+        width: 2%;
+        box-shadow: 
+    0 0 30px rgb(148, 186, 199);
+
+        
+        }
+        .bordaoutrosmetais2 {
+        text-align: center;
+        border: solid;
+        background-color: rgb(156, 187, 255);
+        height: 5vh;
+        
+        width: 2%;
+        box-shadow: 
+    0 0 30px rgb(112, 134, 182);
+
+        }
+        .bordametaisdetransicao2 {
+        text-align: center;
+        border: solid;
+        background-color: rgb(250, 179, 179);
+        height: 5vh;
+        width: 2%;
+        box-shadow: 
+    0 0 30px rgb(177, 126, 126);
+
+        
+        }
+        .bordalantanideos2 {
+        text-align: center;
+        border: solid;
+        background-color: rgb(153, 219, 241);
+        height: 5vh;
+        width: 2%;
+        box-shadow: 
+    0 0 30px rgb(96, 137, 151);
+        
+        
+        }
+        .bordaactinidios2 {
+        text-align: center;
+        border: solid;
+        background-color: rgb(255, 204, 240);
+        height: 5vh;
+        width: 2%;
+        box-shadow: 
+    0 0 30px rgb(202, 157, 189);
+        }
+
+      .espaco{
+
+        height: 5vh;
+        width: 2%;
+
+      }
+   
+    
+    
+    
+    
+    
