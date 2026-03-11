@@ -154,7 +154,7 @@ table{
     .bordanaometais1 {
       text-align: center;
       font-family: monospace;
-      
+      width: 8%;
       height: 5vh;
       color: white;
       
@@ -163,14 +163,14 @@ table{
       .bordagasesnobres1{
       text-align: center;
       font-family: monospace;
-      
+      width: 8%;
       height: 5vh;
       color: white;
       
       }
       .bordametaisalcalinos1 {
       text-align: center;
-      
+      width: 8%;
       font-family: monospace;
       height: 5vh;
       color: white;
@@ -179,13 +179,13 @@ table{
       .bordametaisalcalinosterrosos1 {
       text-align: center;
       font-family: monospace;
-      
+      width: 8%;
       height: 5vh;
       color: white;
       }
       .bordasemimetais1 {
       text-align: center;
-      
+      width: 8%;
       font-family: monospace;
       height: 5vh;
       color: white;
@@ -193,16 +193,16 @@ table{
       }
       .bordahalogenios1 {
       text-align: center;
-      
+      width: 8%;
       font-family: monospace;
       height: 5vh;
       color: white;
-      
+      width: 8%;
       }
       .bordaoutrosmetais1 {
       text-align: center;
       font-family: monospace;
-     
+     width: 8%;
       height: 5vh;
       color: white;
       
@@ -235,7 +235,7 @@ table{
 
       .bordanaometais2 {
         text-align: center;
-        border: solid;
+        
         background-color: rgb(180, 214, 128);
         height: 5vh;
         width: 2%;
@@ -246,7 +246,7 @@ table{
         }
         .bordagasesnobres2{
         text-align: center;
-        border: solid;
+        
         background-color: rgb(175, 175, 255);
         height: 5vh;
         width: 2%;
@@ -257,7 +257,7 @@ table{
         }
         .bordametaisalcalinos2 {
         text-align: center;
-        border: solid;
+       
         background-color: rgb(255, 209, 124);
         height: 5vh;
         width: 2%;
@@ -268,7 +268,7 @@ table{
         }
         .bordametaisalcalinosterrosos2 {
         text-align: center;
-        border: solid;
+        
         background-color: rgb(255, 255, 137);
         height: 5vh;
 
@@ -280,7 +280,7 @@ table{
         }
         .bordasemimetais2 {
         text-align: center;
-        border: solid;
+        
         background-color: rgb(114, 206, 201);
         height: 5vh;
         width: 2%;
@@ -291,7 +291,7 @@ table{
         }
         .bordahalogenios2 {
         text-align: center;
-        border: solid;
+        
         background-color: rgb(189, 222, 233);
         height: 5vh;
         width: 2%;
@@ -302,7 +302,7 @@ table{
         }
         .bordaoutrosmetais2 {
         text-align: center;
-        border: solid;
+        
         background-color: rgb(156, 187, 255);
         height: 5vh;
         
@@ -313,7 +313,7 @@ table{
         }
         .bordametaisdetransicao2 {
         text-align: center;
-        border: solid;
+        
         background-color: rgb(250, 179, 179);
         height: 5vh;
         width: 2%;
@@ -324,7 +324,7 @@ table{
         }
         .bordalantanideos2 {
         text-align: center;
-        border: solid;
+        
         background-color: rgb(153, 219, 241);
         height: 5vh;
         width: 2%;
@@ -335,7 +335,7 @@ table{
         }
         .bordaactinidios2 {
         text-align: center;
-        border: solid;
+        
         background-color: rgb(255, 204, 240);
         height: 5vh;
         width: 2%;
@@ -349,7 +349,12 @@ table{
         width: 2%;
 
       }
-   
+   .numeracao{
+
+    color: white;
+    font-family: cursive;
+    font-size: 18px;
+   }
     
     
     
