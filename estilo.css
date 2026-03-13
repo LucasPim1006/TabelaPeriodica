@@ -6,12 +6,45 @@ box-sizing: border-box;
 
 }
 
-body{
-
-  
-  background-color: rgb(0, 0, 0);
-  
-}
+      @property --giro {
+        syntax: '<angle>';
+        initial-value: 0deg;
+        inherits: false;
+      }
+      body {
+        /* Usa a variável --giro para o ângulo inicial */
+        background: repeating-conic-gradient(
+          from var(--giro),
+          #000000 0deg 15deg,
+          #050505 15deg 30deg,  
+          #000000 30deg 45deg, 
+          #050505 45deg 60deg, 
+          #000000 60deg 75deg,  
+          #050505 75deg 90deg,  
+          #000000 90deg 105deg, 
+          #050505 105deg 120deg,
+          #000000 120deg 135deg 
+        );
+        
+        /* Chama a animação infinita */
+        animation: hipnose-extrema 10s linear infinite;
+        
+        /* Garante que ocupe a tela toda */
+        min-height: 100vh;
+        margin: 0;
+      }
+      
+      /* 3. A animação que faz a mágica girar */
+      @keyframes hipnose-extrema {
+        0% {
+          --giro: 0deg;
+        }
+        100% {
+          --giro: 360deg;
+        }
+      }
+   
+    
 
 
 table{
